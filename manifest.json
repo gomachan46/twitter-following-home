@@ -1,0 +1,11 @@
+{
+  "name": "Twitter Following Home",
+  "description": "Let's get only `Following` tab. `For you` tab is not `For me`.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["https://twitter.com/*"],
+  "permissions": ["tabs", "scripting"]
+}
